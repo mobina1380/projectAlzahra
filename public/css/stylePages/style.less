@@ -1,0 +1,238 @@
+:root{
+    //overflow-x: hidden !important;
+}
+@font-face {
+  font-family: "VazirRegular";
+  src: url("../../fonts/vazir-font-master/dist/Vazir-Regular.ttf");
+}
+@font-face {
+  font-family: "VazirBold";
+  src: url("../../fonts/vazir-font-master/dist/Vazir-Bold.ttf");
+}
+body {
+  text-align: right !important;
+  font-family: "vazir regular";
+  direction: rtl;
+  overflow-x: hidden;
+}
+.header {
+  width: 100% !important;
+  z-index: 100000;
+}
+.right-sidebar {
+  /*background-color: red;*/
+}
+.header {
+  &-left {
+    margin-right: 10px;
+  }
+  &-right {
+    margin-left: -1%;
+  }
+}
+
+.left-side-bar {
+  background-color: white;
+  margin-top: 30px;
+  /*height:500px;*/
+  background-color: rgb(0, 188, 212) !important;
+}
+
+.faq-wrap .card-header .btn {
+  background: 0 0;
+  border-radius: 0;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 40px 16px 16px;
+  position: relative;
+  white-space: normal;
+  color: #1b00ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.card-box h5 {
+  text-align: center;
+}
+.show {
+  /*background-color: red;*/
+  /*transform: translate3d(10px, -7px, 0px);*/
+}
+.dropdown-menu-right {
+  /*transform: translate3d(10px, -7px, 0px);*/
+}
+.header-left .header-search .dropdown .dropdown-menu {
+  margin-left: 100%;
+}
+
+.fontBN {
+  font-family: "vazir regular";
+}
+span {
+  font-family: "vazir regular";
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(0, 188, 212);
+}
+.archive {
+  margin-top: 100px;
+}
+///////////////////////////////
+//colorset
+@color13: #072227;
+@color14: #35858b;
+@color15: #4fbdba;
+@color16: #aefeff;
+
+.badge {
+  background-color: @color14;
+}
+.card-box .active {
+  background-color: @color15 !important;
+}
+
+
+
+////////////////////////////////
+
+.box2{
+  width: 100%;
+  /*height: 200px;*/
+  background-color: @color16;
+}
+.faq-wrap .card-header .btn:after {
+  content: "\f209";
+
+  position: absolute;
+  right: 20px;
+  color: @color13;
+  top: 16px;
+}
+.list2 a{
+  border-radius:0px !important;
+  background-color: #559492;
+  color: white;
+}
+.list2 a:hover{
+  background-color: @color16;
+  color:@color13;
+}
+.list2{
+  background-color: @color15;
+}
+.list2pd{
+  background-color: @color15;
+}
+.list3 .f{
+  background-color: @color16;
+}
+.list3 .z{
+
+}
+.badge{
+  background-color: @color14;
+}
+.faq-wrap h4 , .faq-wrap h5{
+  color:@color14;
+  font-family: "VazirBold";
+}
+.selectop{
+  padding: 4px 15px;
+  border-color: @color15;
+  border-radius: 4px;
+  font-family: "VazirRegular";
+}
+.list-group-item.active {
+
+  border: none;
+}
+@keyframes borderColorAnimation {
+  0% {
+    border-color: @color13;
+  }
+  25% {
+    border-color:@color14;
+  }
+  50% {
+    border-color: @color15;
+  }
+  75% {
+    border-color: @color16;
+  }
+  100% {
+    border-color: yellow;
+  }
+}
+.btncreate{
+  position: absolute;
+  left: 5%;
+  top: -30%;
+  animation: borderColorAnimation 3s infinite alternate linear;
+}
+.btn-toolbar {
+  background-color: @color15;
+}
+.box2{
+  background-color: #4FBDBA !important;
+}
+.card p{
+  font-family: "VazirRegular";
+}
+.latest-post p , .latest-post span{
+  font-family: "VazirRegular";
+}
+h5{
+  font-family: "VazirRegular";
+}
+.card-box{
+  font-family:"VazirRegular" ;
+}
+#lasttext{
+    background-color: #4FBDBA;
+}
+.earth {
+    margin-left: 5px;
+}
+.aspanser {
+
+    margin-right: 12% !important;
+}
+@media (max-width: 500px) {
+    .aspanser > p {
+        margin-right: -25% !important;
+
+    }
+}
+
+#progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    background-color: #35858B;
+    transition: all linear 0.1s;
+    min-width: 0%;
+}
+
+.scrollToTop{
+    display: none
+;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #4FBDBA;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}

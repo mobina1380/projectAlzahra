@@ -1,0 +1,107 @@
+.btn-toggle-nav a:hover, .btn-toggle-nav a:focus {
+    background-color: transparent;
+}
+.badge {
+    background-color: transparent;
+
+}
+.parentsidbar .show{
+    background-color: transparent !important;
+}
+.parentsidbar ul{
+    width: 100%;
+}
+.parentsidbar ul li{
+    width: 100%;
+    /*background: linear-gradient(-45deg, #4FBDBA, rgba(79, 189, 180, 0.9), #439493, #4FBDBA);*/
+    background-size: 400% 400%;
+
+    background: rgb(79,189,186);
+    background: linear-gradient(90deg, rgba(174,254,255,1) 0%,    rgba(79,189,186,1) 100%);
+    animation: gradient 15s ease infinite;
+}
+.parentsidbar {
+    border-radius: 7px;
+    background:url("images/hero2.png") !important;
+    background-repeat: no-repeat;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.btn-toggle::after {
+    /*margin-right: 12% !important;*/
+    content: " ";
+}
+
+.fa-remove{
+    position: absolute;
+    margin-right: 3% !important;
+    padding-top: 2px;
+    color: white !important;
+
+}
+#added-item {
+    width: 100% !important;
+}
+.parentsidbar{
+    border-radius: 7px;
+    background-image: url("/images/bag.jpg") !important;
+    background-repeat: no-repeat;
+
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;;
+
+    height: auto;
+    overflow-scrolling: scroll;
+
+}
+.sidbarmenue i {
+    color: white !important;
+}
+
+
+
+
+@media (max-width: 500px) {
+    .s-post-summary--content-title{
+        font-size: 14px !important;
+    }
+    .s-post-summary--stats {
+        font-size: 12px !important;
+    }
+    .colleft{
+        background-image: none !important;
+    }
+}
+
+#added-item span {
+    font-size: 12px !important;
+}
+
+.boxmobile .collapse .btn-toggle-nav li a {
+
+    padding-right: 20px !important;
+}
+@media (max-width: 500px) {
+    .sidebar2{
+        display: none !important;
+    }
+    #loaderin{
+        display: none !important;
+    }
+    .tree_Facet{
+        display: none;
+    }
+}
+
+.list-unstyled > li > ul li {
+    list-style: none;
+}

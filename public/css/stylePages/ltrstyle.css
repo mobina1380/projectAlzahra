@@ -1,0 +1,71 @@
+body{
+    text-align: left !important;
+}
+.earth {
+    margin-right: 5px;
+}
+.sidebar a i, .sidebar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-right: 7px;
+}
+.sidebar .dropdown ul {
+    left: 100%;
+
+}
+a.dropdown-item {
+    text-align: left;
+}
+ .fa-phone-alt{
+    margin-right: 1rem !important;
+}
+.fa-envelope{
+    margin-right: 1rem !important;
+}
+.breadcrumb-item {
+    margin-right: 0;
+    /*margin-top: 3%;*/
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.s-post-summary--meta .s-user-card {
+    flex-wrap: wrap;
+    margin-bottom: var(--s-post-summary-tags-gap);
+    margin:0;
+    justify-content: flex-end;
+}
+
+.card .card-header .parentbox{
+    margin-left: 1rem ;
+}
+#accordion .s-post-summary--meta{
+    margin-left: 1rem;
+}
+
+#question-summary-71567913  .js-post-summary-stats{
+    margin-left: 0.8rem;
+}
+.dastabandi ul li ul li{
+    background-color: #ffffff;
+}
+
+@media (max-width: 700px) {
+    .footer .d-flex {
+        margin-left: 30% !important;
+    }
+}
+#added-item .btn-toggle::after {
+    margin-left: 12% !important;
+}
+
+
+@media (max-width: 700px){
+    .box2 .d-flex {
+
+        margin-left: 30% !important;
+    }
+}

@@ -1,0 +1,28 @@
+before_script:
+
+stages:
+  - build
+
+deployA:
+    stage: build
+    only:
+      - main
+    
+    script:
+      - whoami      
+      - cd /home/parqa/domains/parsaqa.com
+      - whoami
+      - php artisan down
+      - git checkout .
+      - git checkout main
+      - php artisan down
+      #- git checkout .
+      #- git checkout master
+      - git pull
+      #- php artisan migrate --force
+      - php artisan cache:clear
+      - php artisan route:clear
+      - php artisan config:clear
+      - php artisan up
+      #- php opcache_reset.php
+      - date

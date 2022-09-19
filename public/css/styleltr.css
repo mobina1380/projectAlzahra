@@ -1,0 +1,104 @@
+#scrollup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #4FBDBA;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#scrollup:hover {
+    background-color: #555;
+}
+#btnSearch {
+    position: relative;
+    right: 45%;
+    border: none;
+    bottom: 35px;
+    background-color: transparent;
+    font-weight: bold;
+    color: #0c5460 !important;
+}
+.btn-link{
+    text-decoration: none;
+}
+.footer .queicklink{
+    font-size: 20px;
+}
+@media (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    .btn-check:focus+.btn, .btn:focus {
+        outline: 0;
+        box-shadow:none !important;
+    }
+    .footer   .links {
+        margin-right: 0% !important;
+    }
+
+    .footer p{
+        text-align: center;
+    }
+    .footer a{
+        text-align: center !important;
+    }
+    .footer .d-flex{
+        margin-left: 30%;
+    }
+}
+.footer .btn.btn-link::after {
+    position: relative;
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+/*/////////////////////*/
+body{
+    direction: ltr;
+    text-align: left;
+    font-family: "Arial" !important;
+
+    overflow-x: hidden;
+}
+
+.container1{
+    margin-top: -10%;
+}
+.card-text{
+    text-align: justify;
+
+}
+
+.searchbox:focus{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.card1{
+    /*box-shadow: rgba(46, 234, 240, 0.4) 5px 5px, rgba(46, 211, 240, 0.3) 10px 10px, rgba(46, 240, 188, 0.2) 15px 15px, rgba(46, 124, 240, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.navbar-nav a{
+    font-family: "vazir regular" !important;
+}
+.copyright  p{
+    text-align: center;
+}
+.btnadvance{
+    margin-right: 80% !important;
+}
+.goaltext{
+    text-align: justify;
+}
+.portfolio-item{
+    text-align: justify !important;
+}

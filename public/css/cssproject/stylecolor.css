@@ -1,0 +1,87 @@
+.hero-header {
+  background-color: #4FBDBA;
+}
+.navbar-expand-lg {
+  background-color: rgba(79, 189, 186, 0.5);
+}
+@media (min-width: 992px) {
+  .sticky-top.navbar-light .btn {
+    color: white;
+    background: #072227;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-light .btn {
+    color: white;
+    background: #35858B !important;
+  }
+}
+.back-to-top {
+  background-color: #69DADB !important;
+}
+.bar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #35858B !important;
+}
+.back-to-top {
+  margin-right: -4px !important;
+}
+.service-item {
+  background-color: #4FBDBA;
+}
+.service-item:hover {
+  background-color: #35858B;
+  cursor: pointer;
+}
+.counter {
+  background-color: #35858B;
+}
+.footer {
+  background-color: #4FBDBA;
+}
+.boxs {
+  background-color: #AEFEFF !important;
+}
+.section-title.text-secondary span:first-child,
+.section-title.text-secondary span:last-child,
+.section-title.text-secondary span:first-child::after,
+.section-title.text-secondary span:last-child::after {
+  background: #4FBDBA;
+}
+.bar1 {
+  background-color: #35858B !important;
+}
+.bar2 {
+  background-color: #4FBDBA !important;
+}
+.bar3 {
+  background-color: #AEFEFF !important;
+}
+.btnmore {
+  background-color: #35858B !important;
+  color: white !important;
+}
+.links {
+  margin-right: 40%;
+}
+.footerpic {
+  margin-right: 20% !important;
+  margin-top: 6%;
+}
+.fpic {
+  margin-top: 30% !important;
+}
+h5.card-title {
+  color: #072227;
+}
+.service-item h5 {
+  color: #072227;
+}
+.service-item a.btn:hover {
+  color: var(--dark);
+  background: #AEFEFF;
+}
+.back-to-top {
+  border-radius: 50% !important;
+}
+/*# sourceMappingURL=stylecolor.css.map */

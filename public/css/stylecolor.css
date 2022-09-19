@@ -1,0 +1,87 @@
+.hero-header {
+  background-color: #2f510f;
+}
+.navbar-expand-lg {
+  background-color: rgba(79, 189, 186, 0.5);
+}
+@media (min-width: 992px) {
+  .sticky-top.navbar-light .btn {
+    color: white;
+    background: #426e17;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-light .btn {
+    color: white;
+    background: #2f510f !important;
+  }
+}
+.back-to-top {
+  background-color: #69DADB !important;
+}
+.bar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #7abb3b !important;
+}
+.back-to-top {
+  margin-right: -4px !important;
+}
+.service-item {
+  background-color: #2f510f;
+}
+.service-item:hover {
+  background-color: #7abb3b;
+  cursor: pointer;
+}
+.counter {
+  background-color: #7abb3b;
+}
+.footer {
+  background-color: #2f510f;
+}
+.boxs {
+  background-color: #adc994 !important;
+}
+.section-title.text-secondary span:first-child,
+.section-title.text-secondary span:last-child,
+.section-title.text-secondary span:first-child::after,
+.section-title.text-secondary span:last-child::after {
+  background: #2f510f;
+}
+.bar1 {
+  background-color: #7abb3b !important;
+}
+.bar2 {
+  background-color: #2f510f !important;
+}
+.bar3 {
+  background-color: #adc994 !important;
+}
+.btnmore {
+  background-color: #7abb3b !important;
+  color: white !important;
+}
+.links {
+  margin-right: 40%;
+}
+.footerpic {
+  margin-right: 20% !important;
+  margin-top: 6%;
+}
+.fpic {
+  margin-top: 30% !important;
+}
+h5.card-title {
+  color: #426e17;
+}
+.service-item h5 {
+  color: #ffffff;
+}
+.service-item a.btn:hover {
+  color: var(--dark);
+  background: #adc994;
+}
+.back-to-top {
+  border-radius: 50% !important;
+}
+/*# sourceMappingURL=stylecolor.css.map */
